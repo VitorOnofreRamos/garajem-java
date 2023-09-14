@@ -52,13 +52,13 @@ public class Main {
         var scanner = new Scanner(System.in);
         var novoCarro = new Carro();
 
-        System.out.println("Marca");
+        System.out.println("Insira a Marca do carro");
         novoCarro.setMarca(scanner.nextLine());
-        System.out.println("Modelo");
+        System.out.println("Insira o Modelo do carro");
         novoCarro.setModelo(scanner.nextLine());
-        System.out.println("Ano");
+        System.out.println("Insira o Ano do carro");
         novoCarro.setAno(scanner.nextInt());
-        System.out.println("Portas");
+        System.out.println("Insira o Número de Portas do carro");
         novoCarro.setQuantidadeDePortas(scanner.nextInt());
         System.out.println("Cadastro concluído " + novoCarro.toString());
 
@@ -70,13 +70,13 @@ public class Main {
         var novoMoto = new Moto();
 
         //Sempre Deixe o "nextInt por último
-        System.out.println("Marca");
+        System.out.println("Insira a Marca da Moto");
         novoMoto.setMarca(scanner.nextLine());
-        System.out.println("Modelo");
+        System.out.println("Insira o Modelo da Moto");
         novoMoto.setModelo(scanner.nextLine());
-        System.out.println("Tipo");
+        System.out.println("Insira o Tipo da Moto");
         novoMoto.setTipoDaMoto(scanner.nextLine());
-        System.out.println("Ano");
+        System.out.println("Insira o Ano da Moto");
         novoMoto.setAno(scanner.nextInt());
         System.out.println("Cadastro concluído " + novoMoto.toString());
 
