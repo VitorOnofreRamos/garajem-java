@@ -69,14 +69,15 @@ public class Main {
         var scanner = new Scanner(System.in);
         var novoMoto = new Moto();
 
+        //Sempre Deixe o "nextInt por último
         System.out.println("Marca");
         novoMoto.setMarca(scanner.nextLine());
         System.out.println("Modelo");
         novoMoto.setModelo(scanner.nextLine());
-        System.out.println("Ano");
-        novoMoto.setAno(scanner.nextInt());
         System.out.println("Tipo");
         novoMoto.setTipoDaMoto(scanner.nextLine());
+        System.out.println("Ano");
+        novoMoto.setAno(scanner.nextInt());
         System.out.println("Cadastro concluído " + novoMoto.toString());
 
         return novoMoto;
